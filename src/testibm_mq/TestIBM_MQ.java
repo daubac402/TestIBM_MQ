@@ -1,7 +1,7 @@
 /**
  * PLEASE READ THIS ONE FIRST:
  *      Disable CHLAUTHEN (channel authentication)
-            cmd > runmqsc [Queue Manager name] > ALTER QMGR CHLAUTH(DISABLED) > end
+ *        cmd > runmqsc [Queue Manager name] > ALTER QMGR CHLAUTH(DISABLED) > end
  *      Because IBM WMQ uses 2 types of connection authen is IDPWOS(uses the local 
  *      operating system to authenticate the user ID and password) and IDPWLDAP
  *      (uses an LDAP server to authenticate the user ID and password), default 
